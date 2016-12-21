@@ -1,0 +1,7 @@
+/data
+/notes
+
+*.py[cod]
+*.DS*
+
+.ipynb_checkpoints
