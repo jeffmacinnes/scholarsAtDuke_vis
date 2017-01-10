@@ -1,5 +1,7 @@
 /data
 /notes
+**/data
+**/assets
 
 *.py[cod]
 *.DS*
