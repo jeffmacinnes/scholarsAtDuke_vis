@@ -3,8 +3,8 @@
 **/data
 **/assets
 
-/*.png
-/*.py[cod]
-/*.DS*
+*.png
+*.py[cod]
+*.DS*
 
 .ipynb_checkpoints
