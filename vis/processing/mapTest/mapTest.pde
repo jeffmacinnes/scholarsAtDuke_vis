@@ -46,43 +46,26 @@ void setup() {
 
   // animation settings
   noLoop();
-  smooth();
-  
-  // Draw to screen
-  image(mapBG, 0, 0, width, height);
-
-  //// show all collaborations
-  //for (Collaboration collab : collabs) {
-  // collab.display();
-  //}
-  
-  // show some collaborations
-  for (int c = 0; c<1000; c++) {
-   collabs[c].display();
-  }
-  
-  // save
-  save("mapTest.png");
-  
+  smooth();  
 }
 
 
-//void draw() {
-//  image(mapBG, 0, 0, width, height);
+void draw() {
+ image(mapBG, 0, 0, width, height);
 
-//  // show all collaborations
-//  for (Collaboration collab : collabs) {
-//   collab.display();
-//  }
+ // show all collaborations
+ for (Collaboration collab : collabs) {
+  collab.display();
+ }
   
-//  // show some collaborations
-//  //for (int c = 0; c<1000; c++) {
-//  //  collabs[c].display();
-//  //}
+ // show some collaborations
+ //for (int c = 0; c<1000; c++) {
+ //  collabs[c].display();
+ //}
   
-//  // save
-//  save("mapTest.png");
-//}
+ // save
+ save("mapTest.png");
+}
 
 
 
