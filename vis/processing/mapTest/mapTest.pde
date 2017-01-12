@@ -11,7 +11,7 @@ int h = 4884;
 // create mercator projection object
 MercatorMap mercatorMap = new MercatorMap(w, h, latN, latS, lonW, lonE);
 
-PImage mapBG;
+PImage mapBG, mapOverlay;
 Table collabTable;
 Collaboration[] collabs;
 
@@ -22,6 +22,7 @@ void settings() {
 void setup() {
   // load background image
   mapBG = loadImage("dark1.png");
+  mapOverlay = loadImage("buildingOverlay.png");
 
   // load table
   collabTable = loadTable("collaborations.tsv", "header, tsv");
@@ -52,6 +53,9 @@ void setup() {
 
 void draw() {
  image(mapBG, 0, 0, width, height);
+ 
+  // show overlay of buildings
+ image(mapOverlay, 0, 0, width, height);
 
  // show all collaborations
  for (Collaboration collab : collabs) {
@@ -62,7 +66,10 @@ void draw() {
  //for (int c = 0; c<1000; c++) {
  //  collabs[c].display();
  //}
-  
+ 
+ // show overlay of buildings
+ //image(mapOverlay, 0, 0, width, height);
+ 
  // save
  save("mapTest.png");
 }
