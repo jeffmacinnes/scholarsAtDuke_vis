@@ -1,17 +1,16 @@
-// import PDF library
-
 // constant vars
-float latN = 36.0109;
-float latS = 35.9905;
-float lonE = -78.9086;
-float lonW = -78.9483;
+float latN = 36.0112;
+float latS = 35.9684;
+float lonE = -78.8846;
+float lonW = -78.9532;
 
-int w = 7689;
-int h = 4884;
+int w = 831;
+int h = 640;
+
 // create mercator projection object
 MercatorMap mercatorMap = new MercatorMap(w, h, latN, latS, lonW, lonE);
 
-PImage mapBG, mapOverlay;
+PImage mapBG;
 Table collabTable;
 Collaboration[] collabs;
 
@@ -21,11 +20,10 @@ void settings() {
 
 void setup() {
   // load background image
-  mapBG = loadImage("dark1.png");
-  mapOverlay = loadImage("buildingOverlay.png");
+  mapBG = loadImage("map2.png");
 
   // load table
-  collabTable = loadTable("vis_collaborations.tsv", "header, tsv");
+  collabTable = loadTable("collaborations_sample.tsv", "header, tsv");
   int n_collabs = collabTable.getRowCount();
 
   // create array for collab objects
@@ -47,32 +45,20 @@ void setup() {
 
   // animation settings
   noLoop();
-  smooth();  
+  smooth();
 }
 
 
 void draw() {
-  
- image(mapBG, 0, 0, width, height);
- 
-  // show overlay of buildings
- image(mapOverlay, 0, 0, width, height);
+  image(mapBG, 0, 0, width, height);
 
- // show all collaborations
- //for (Collaboration collab : collabs) {
- // collab.display();
- //}
-  
- // show some collaborations
- for (int c = 0; c<5000; c++) {
-  collabs[c].display();
- }
- 
- // show overlay of buildings
- //image(mapOverlay, 0, 0, width, height);
- 
- // save
- save("mapTest.png");
+  // show all collaborations
+  //for (Collaboration collab : collabs) {
+  //  collab.display();
+  //}
+  for (int c = 0; c<1000; c++) {
+    collabs[c].display();
+  }
 }
 
 
@@ -154,9 +140,9 @@ class Collaboration {
 
     // show dots
     noStroke();
-    fill(255, 200);
-    ellipse(leftPt_screen.x, leftPt_screen.y, 10, 10);
+    fill(142, 234, 14);
+    //ellipse(leftPt_screen.x, leftPt_screen.y, 10, 10);
     //fill(255, 0, 0);
-    ellipse(rightPt_screen.x, rightPt_screen.y, 10, 10);
+    //ellipse(rightPt_screen.x, rightPt_screen.y, 10, 10);
   }
 }

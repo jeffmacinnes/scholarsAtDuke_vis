@@ -41,15 +41,16 @@ void setup() {
   // read through table, extract location info, build collaborations array
   for (int r = 0; r<n_collabs; r++) {
     TableRow row = collabTable.getRow(r);
-    float srcLon = float(row.getString("src_LON"));
-    float dstLon = float(row.getString("dst_LON"));
-    float srcLat = float(row.getString("src_LAT"));
-    float dstLat = float(row.getString("dst_LAT"));
+    float srcLon = float(row.getString("a1_LON"));
+    float dstLon = float(row.getString("a2_LON"));
+    float srcLat = float(row.getString("a1_LAT"));
+    float dstLat = float(row.getString("a2_LAT"));
+    int totalCollabs = int(row.getString("totalCollabs"));
 
     // add to collabs array
     PVector srcPt = new PVector(srcLat, srcLon);
     PVector dstPt = new PVector(dstLat, dstLon);
-    collabs[r] = new Collaboration(srcPt, dstPt);
+    collabs[r] = new Collaboration(srcPt, dstPt, totalCollabs);
   }
 
   // animation settings
@@ -97,7 +98,7 @@ class Collaboration {
 
 
   // constructor
-  Collaboration(PVector srcPt_geo, PVector dstPt_geo) {
+  Collaboration(PVector srcPt_geo, PVector dstPt_geo, int totalCollabs) {
 
     // convert the locations from geo (lat/lon) to screen (x,y)
     // figure out which point is further west (note: y-geo coord = lon = x screen coor) 
@@ -110,7 +111,11 @@ class Collaboration {
     }
 
     // set color
-    connColor = color(230, 142, 55, 120);
+    if (totalCollabs > 1){
+      connColor = color(0, 255, 0, 120);
+    } else {
+      connColor = color(230, 142, 55, 120);
+    }
 
     // calculate distance between points
     collabDist = leftPt_screen.dist(rightPt_screen);
@@ -125,7 +130,7 @@ class Collaboration {
 
     // define length of each ctrl pt vector
     float maxOffset = 1.1;
-    ctrlVecLen = collabDist * .4 * map(random(0, 1), 0, 1, 1, maxOffset);
+    ctrlVecLen = collabDist * .2 * map(random(0, 1), 0, 1, 1, maxOffset);
 
     // create ctrlPtVectors
     //orthVecRotDeg = 10.0;
