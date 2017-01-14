@@ -1,0 +1,16 @@
+chr - VTA VTA 0 50 grey
+chr - L_ANT_HPC L_ANT_HPC 0 100 white
+chr - L_POST_HPC L_POST_HPC 0 100 white
+chr - NAc NAc 0 100 white
+chr - R_POST_HPC R_POST_HPC 0 100 white
+chr - R_ANT_HPC R_ANT_HPC 0 100 white
+band L_ANT_HPC hi_performer hi_performer 0 50 lpurple
+band L_ANT_HPC hi_performer hi_performer 51 100 dpurple
+band L_POST_HPC hi_performer hi_performer 0 50 lpurple
+band L_POST_HPC hi_performer hi_performer 51 100 dpurple
+band NAc hi_performer hi_performer 0 50 lpurple
+band NAc hi_performer hi_performer 51 100 dpurple
+band R_ANT_HPC hi_performer hi_performer 0 50 lpurple
+band R_ANT_HPC hi_performer hi_performer 51 100 dpurple
+band R_POST_HPC hi_performer hi_performer 0 50 lpurple
+band R_POST_HPC hi_performer hi_performer 51 100 dpurple
