@@ -1,0 +1,49 @@
+chr	-	7201	East Duke Building	0	2	lpurple
+chr	-	7202	West Duke Building	0	10	lpurple
+chr	-	7224	Friedl Building	0	15	lpurple
+chr	-	7251	Art Building	0	4	lpurple
+chr	-	7261	Smith Warehouse	0	4	lpurple
+chr	-	7501	Duke Clinic	0	22	lpurple
+chr	-	7506	Duke Clinic	0	157	lpurple
+chr	-	7507	Duke Clinic	0	469	lpurple
+chr	-	7508	Duke Clinic	0	3783	lpurple
+chr	-	7512	Trent Drive Hall	0	52	lpurple
+chr	-	7513	Nanaline H. Duke Building	0	194	lpurple
+chr	-	7514	Medical Sciences Research Building II	0	233	lpurple
+chr	-	7515	Pickens/Duke Family Medicine	0	25	lpurple
+chr	-	7516	Medical Sciences Research Building	0	2015	lpurple
+chr	-	7530	Sands Building	0	276	lpurple
+chr	-	7531	Hudson Eye Building	0	24	lpurple
+chr	-	7534	Hudson Eye Building	0	231	lpurple
+chr	-	7540	Snyderman Genome Science Research Building	0	734	lpurple
+chr	-	7545	Duke Hospital North	0	3	lpurple
+chr	-	7548	Duke Hospital North	0	798	lpurple
+chr	-	7549	Edwin L. Jones Building	0	110	lpurple
+chr	-	7550	Christine Siegler Pearson Building	0	308	lpurple
+chr	-	7560	Mary Duke Biddle Trent Seamans Center	0	24	lpurple
+chr	-	7576	Clinical and Research Laboratory	0	217	lpurple
+chr	-	7579	Bryan Research Building	0	516	lpurple
+chr	-	7593	North Pavillion	0	112	lpurple
+chr	-	7705	Languages Building	0	4	lpurple
+chr	-	7706	Old Chemistry	0	1	lpurple
+chr	-	7709	Sociology-Psychology Building	0	198	lpurple
+chr	-	7710	Social Sciences Building	0	13	lpurple
+chr	-	7735	Fitzpatrick Center for Interdisciplinary Engineering, Medicine, and Applied Sciences	0	423	lpurple
+chr	-	7738	French Family Science Center	0	88	lpurple
+chr	-	7739	Rubenstein Hall	0	70	lpurple
+chr	-	7747	Hudson Hall Engineering Building	0	90	lpurple
+chr	-	7749	Physics Building	0	51	lpurple
+chr	-	7753	Allen Building	0	4	lpurple
+chr	-	7754	405 Research Dr	0	26	lpurple
+chr	-	7756	North Building	0	15	lpurple
+chr	-	7758	Biological Sciences Building	0	88	lpurple
+chr	-	7759	Law School Building	0	24	lpurple
+chr	-	7760	Ford School of Business	0	32	lpurple
+chr	-	7765	Gross Hall	0	8	lpurple
+chr	-	7776	Levine Science Research Center	0	406	lpurple
+chr	-	8084	Carmichael Building	0	92	lpurple
+chr	-	8116	Erwin Square	0	270	lpurple
+chr	-	8141	Hock Plaza	0	1870	lpurple
+chr	-	8166	Physician Assistant Program Building	0	316	lpurple
+chr	-	8239	501 Douglas	0	5	lpurple
+chr	-	8304	Erwin Mill	0	112	lpurple
