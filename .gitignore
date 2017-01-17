@@ -6,5 +6,6 @@
 *.png
 *.py[cod]
 *.DS*
+*.psd
 
 .ipynb_checkpoints

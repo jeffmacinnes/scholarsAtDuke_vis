@@ -1,3 +1,4 @@
+/*
 #hillshade {
   opacity:0.25;
   ::0[zoom<=13],
@@ -28,3 +29,5 @@
   ::3 { image-filters: agg-stack-blur(20,20); }
   ::4 { image-filters: agg-stack-blur(20,20); }
 }
+
+*/

@@ -1,4 +1,4 @@
-
+/*
 
 // Country labels //
 #country_label[zoom>=3] {
@@ -220,3 +220,5 @@
   text-halo-radius: 1;
   text-fill: @text;
 }
+
+*/

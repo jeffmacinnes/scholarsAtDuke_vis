@@ -27,7 +27,9 @@ maintain or invert existing value (light to dark) scale.
 
 @text: #888888;
 
-Map { background-color: @land; }
+
+/*Map { background-color: @land}
+
 
 // Political boundaries //
 #admin[admin_level=2][maritime=0] {
@@ -70,11 +72,14 @@ Map { background-color: @land; }
   polygon-fill: mix(@land,@fill1,95);
 }
 
-#building { 
-  polygon-fill: mix(@fill2,@land,25);
-  [zoom>=16]{ polygon-fill: mix(@fill2,@land,50);}
+*/
+#building {
+  line-color: @fill4;
+  line-width:1;
+  //polygon-fill: mix(@fill2,@land,25);
+  //[zoom>=16]{ polygon-fill: mix(@fill2,@land,50);}
 }
-
+/*
 #aeroway {
   ['mapnik::geometry_type'=3][type!='apron'] { 
     polygon-fill: mix(@fill2,@land,25);
@@ -131,3 +136,4 @@ Map { background-color: @land; }
     [zoom>=18] { line-width: 3; }
   }
 }
+*/
