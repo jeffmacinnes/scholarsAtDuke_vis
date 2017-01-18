@@ -7,5 +7,7 @@
 *.py[cod]
 *.DS*
 *.psd
+*.pdf
+*.ai
 
 .ipynb_checkpoints

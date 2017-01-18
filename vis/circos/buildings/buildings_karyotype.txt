@@ -1,49 +1,49 @@
-chr	-	7747	Hudson Hall Engineering Building	0	90	white
-chr	-	7540	Snyderman Genome Science Research Building	0	734	white
-chr	-	7507	Duke Clinic C	0	469	white
-chr	-	7506	Duke Clinic B	0	157	white
-chr	-	7530	Sands Building	0	276	white
-chr	-	7759	Law School Building	0	24	white
-chr	-	7706	Old Chemistry	0	1	white
-chr	-	7201	East Duke Building	0	2	white
-chr	-	7550	Christine Siegler Pearson Building	0	308	white
-chr	-	7754	405 Research Dr	0	26	white
-chr	-	7501	Duke Clinic A	0	22	white
-chr	-	7579	Bryan Research Building	0	516	white
-chr	-	7548	Duke Hospital North B	0	798	white
-chr	-	7513	Nanaline H. Duke Building	0	194	white
-chr	-	7531	Hudson Eye Building A	0	24	white
-chr	-	8166	Physician Assistant Program Building	0	316	white
-chr	-	7709	Sociology-Psychology Building	0	198	white
-chr	-	8116	Erwin Square	0	270	white
-chr	-	8239	501 Douglas	0	5	white
-chr	-	7202	West Duke Building	0	10	white
-chr	-	7753	Allen Building	0	4	white
-chr	-	7738	French Family Science Center	0	88	white
-chr	-	7514	Medical Sciences Research Building II	0	233	white
-chr	-	7549	Edwin L. Jones Building	0	110	white
-chr	-	7758	Biological Sciences Building	0	88	white
-chr	-	7224	Friedl Building	0	15	white
-chr	-	8141	Hock Plaza	0	1870	white
-chr	-	7516	Medical Sciences Research Building	0	2015	white
-chr	-	7756	North Building	0	15	white
-chr	-	7749	Physics Building	0	51	white
-chr	-	7760	Ford School of Business	0	32	white
-chr	-	7576	Clinical and Research Laboratory	0	217	white
-chr	-	7545	Duke Hospital North A	0	3	white
-chr	-	7776	Levine Science Research Center	0	406	white
-chr	-	7512	Trent Drive Hall	0	52	white
-chr	-	7261	Smith Warehouse	0	4	white
-chr	-	8304	Erwin Mill	0	112	white
-chr	-	7705	Languages Building	0	4	white
-chr	-	7251	Art Building	0	4	white
-chr	-	7765	Gross Hall	0	8	white
-chr	-	7515	Pickens/Duke Family Medicine	0	25	white
-chr	-	7508	Duke Clinic D	0	3783	white
-chr	-	7560	Mary Duke Biddle Trent Seamans Center	0	24	white
-chr	-	7735	Fitzpatrick Center for Interdisciplinary Engineering, Medicine, and Applied Sciences	0	423	white
-chr	-	7593	North Pavillion	0	112	white
-chr	-	7534	Hudson Eye Building B	0	231	white
-chr	-	8084	Carmichael Building	0	92	white
-chr	-	7710	Social Sciences Building	0	13	white
-chr	-	7739	Rubenstein Hall	0	70	white
+chr	-	7534	Hudson Eye Building B	0	231	locColor
+chr	-	7531	Hudson Eye Building A	0	24	locColor
+chr	-	7560	Mary Duke Biddle Trent Seamans Center	0	24	locColor
+chr	-	7549	Edwin L. Jones Building	0	110	locColor
+chr	-	7739	Rubenstein Hall	0	70	locColor
+chr	-	7705	Languages Building	0	4	locColor
+chr	-	7756	North Building	0	15	locColor
+chr	-	8116	Erwin Square	0	270	locColor
+chr	-	7576	Clinical and Research Laboratory	0	217	locColor
+chr	-	8304	Erwin Mill	0	112	locColor
+chr	-	7516	Medical Sciences Research Building	0	2015	locColor
+chr	-	7759	Law School Building	0	24	locColor
+chr	-	7514	Medical Sciences Research Building II	0	233	locColor
+chr	-	7540	Snyderman Genome Science Research Building	0	734	locColor
+chr	-	7530	Sands Building	0	276	locColor
+chr	-	7738	French Family Science Center	0	88	locColor
+chr	-	7202	West Duke Building	0	10	locColor
+chr	-	7224	Friedl Building	0	15	locColor
+chr	-	7507	Duke Clinic C	0	469	locColor
+chr	-	7735	Fitzpatrick Center for Interdisciplinary Engineering, Medicine, and Applied Sciences	0	423	locColor
+chr	-	7508	Duke Clinic D	0	3783	locColor
+chr	-	7515	Pickens/Duke Family Medicine	0	25	locColor
+chr	-	8141	Hock Plaza	0	1870	locColor
+chr	-	7760	Ford School of Business	0	32	locColor
+chr	-	7201	East Duke Building	0	2	locColor
+chr	-	7706	Old Chemistry	0	1	locColor
+chr	-	7261	Smith Warehouse	0	4	locColor
+chr	-	7749	Physics Building	0	51	locColor
+chr	-	7593	North Pavillion	0	112	locColor
+chr	-	8166	Physician Assistant Program Building	0	316	locColor
+chr	-	7548	Duke Hospital North B	0	798	locColor
+chr	-	7251	Art Building	0	4	locColor
+chr	-	7579	Bryan Research Building	0	516	locColor
+chr	-	8239	501 Douglas	0	5	locColor
+chr	-	8084	Carmichael Building	0	92	locColor
+chr	-	7753	Allen Building	0	4	locColor
+chr	-	7512	Trent Drive Hall	0	52	locColor
+chr	-	7758	Biological Sciences Building	0	88	locColor
+chr	-	7765	Gross Hall	0	8	locColor
+chr	-	7709	Sociology-Psychology Building	0	198	locColor
+chr	-	7513	Nanaline H. Duke Building	0	194	locColor
+chr	-	7710	Social Sciences Building	0	13	locColor
+chr	-	7506	Duke Clinic B	0	157	locColor
+chr	-	7776	Levine Science Research Center	0	406	locColor
+chr	-	7747	Hudson Hall Engineering Building	0	90	locColor
+chr	-	7501	Duke Clinic A	0	22	locColor
+chr	-	7754	405 Research Dr	0	26	locColor
+chr	-	7550	Christine Siegler Pearson Building	0	308	locColor
+chr	-	7545	Duke Hospital North A	0	3	locColor
