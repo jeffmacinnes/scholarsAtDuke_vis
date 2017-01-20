@@ -13,7 +13,7 @@ For a detailed look at the code, see the following jupyter notebooks and scripts
 
 * **collaborationStats.ipynb** - some basic summary stats and analyses on the collaboration table created in preppingData.ipynb
 
-* **visualizationPrep.ipnb** - format and process the collaboration table created in preppingData.ipynb in order to get it ready for subsequent visualization scripts
+* **visualizationPrep.ipynb** - format and process the collaboration table created in preppingData.ipynb in order to get it ready for subsequent visualization scripts
 
 *Visualization*:
 
