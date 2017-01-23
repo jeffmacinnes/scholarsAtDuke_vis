@@ -92,6 +92,7 @@ void setup() {
     camera = new PeasyCam(this, 0, 0, 0, 50);
   }
   //noLoop();
+  noCursor();
   smooth();
 }
 
@@ -99,12 +100,17 @@ void setup() {
 void draw() {
   background(255);
   //println(frameRate);
+  
+ 
 
   // show map 
   tint(255, 190);
   image(mapBG, 0, 0, width, height);
   tint(255,255);
   image(mapOverlay, 0, 0, width, height);
+  
+  fill(255, 0, 0, 120);
+  ellipse(mouseX, mouseY, 10, 10);
 
   //// show all collaborations
   for (Collaboration collab : collabs) {

@@ -1,7 +1,13 @@
 /data
 /notes
+**/data
+**/assets
 
+*.png
 *.py[cod]
 *.DS*
+*.psd
+*.pdf
+*.ai
 
 .ipynb_checkpoints
