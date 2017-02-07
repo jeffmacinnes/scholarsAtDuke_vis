@@ -23,7 +23,9 @@ For a detailed look at the code, see the following jupyter notebooks and scripts
 
 * **vis/circos** - this directory contains the *circos* configuration files used to make the building2building circular plot shown on visualization
 
-The final visualization was compiled using Adobe Illustrator, with keys, titles and text added
+The final visualization was compiled using Processing and Adobe Illustrator, with keys, titles and text added. The interactive version was built using the p5js javascript library. 
+
+The poster and interactive site can be found at [http://jeffmacinnes.com/visualization/collabMap/collabMap.php](http://jeffmacinnes.com/visualization/collabMap/collabMap.php)
 
 ---
 ## Overview and definitions
@@ -86,4 +88,4 @@ F. Smith | R. Tyner
 * Remove collaborations that occurred between two scholars associated with the same building (either same department, or two departments from the same building)
 
 ### Remove outlier location
-* There collaborations that are associated with '19 TW Alexander Dr' which is fairly remote from the rest of campus/downtown. For the purposes of the visualization, remove these collaborationsf rom the table. These collaborations represent < 1% of the unique collaborations with a distance > 0. 
+* There collaborations that are associated with '19 TW Alexander Dr' which is fairly remote from the rest of campus/downtown. For the purposes of the visualization, remove these collaborations from the table. These collaborations represent < 1% of the unique collaborations with a distance > 0. 
